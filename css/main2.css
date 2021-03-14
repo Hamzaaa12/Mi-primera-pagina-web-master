@@ -33,7 +33,7 @@ body{
 
 #container .texto1{
   grid-column: 2/3;
-  grid-row: 1/2;
+  grid-row: 2/3;
 }
 
 #container .imagen1{
@@ -60,6 +60,15 @@ width: 100%;
   width: 20%;
 }
 
+#container .imagen3{
+  grid-column: 1/2;
+  grid-row: 2/3;
+}
+
+#container .imagen3 img{
+  height: 80%;
+  width: 80%;
+}
 
 #container2 {
 display: grid;
@@ -77,15 +86,19 @@ text-align: center;
 height: 105%;
 width: 110%;
 grid-column: 1/2;
-background: red;
+background: #FF0000;
+}
+
+#container2 .titulo {
+  color: #ffffff;
 }
 
 
 #footer {
   height:50px;
   line-height:50px;
-  background:black;
-  position: fixed;
+  background:red;
+  position: relative;
   color:black;
   text-align:center;
   bottom:0;

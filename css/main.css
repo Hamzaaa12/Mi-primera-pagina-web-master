@@ -11,7 +11,7 @@ height:100%;
 }
 
 body{
-  font-family: 'Ubuntu', sans-serif;
+  font-family: 'Recursive', sans-serif;
   background-color: #EFEFEF;
   color:black;
   font-size: 22px;;
@@ -40,9 +40,9 @@ body{
   grid-column: 2/3;
   grid-row: 2/3;
 }
-#container img{
-height: 100%;
-width: 100%;
+#container .imagen1 img{
+height: 110%;
+width: 90%;
 }
 
 #container .texto2{
@@ -56,9 +56,9 @@ width: 100%;
 }
 
 #container .imagen2 img{
-  height: 100%;
-  width: 100%;
-}
+  height: 110%;
+  width: 90%;
+  }
 
 #container .imagen3{
   grid-column: 2/3;
@@ -66,9 +66,9 @@ width: 100%;
 }
 
 #container .imagen3 img{
-  height: 100%;
-  width: 100%;
-}
+  height: 110%;
+  width: 90%;
+  }
 
 #container .texto3{
   grid-column: 2/3;
@@ -81,9 +81,9 @@ width: 100%;
 }
 
 #container .imagen4 img{
-  height: 100%;
-  width: 100%;
-}
+  height: 110%;
+  width: 90%;
+  }
 
 #container .texto4{
   grid-column: 4/5;
@@ -103,8 +103,9 @@ grid-column: 2/3;
 text-align: center;
 }
 #container2 .logo img {
-height: 105%;
-width: 110%;
+position: relative;
+height: 100%;
+width: 115%;
 grid-column: 1/2;
 background: red;
 }
